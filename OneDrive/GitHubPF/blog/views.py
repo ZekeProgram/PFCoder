@@ -54,3 +54,5 @@ def logout(request):
     return render(request, 'blog/logout.html')
 def eliminar(request):
     return render(request, 'blog/eliminar.html')
+def chat(request):
+    return render(request, 'blog/chat.html')
