@@ -50,3 +50,7 @@ def login(request):
     return render(request, 'blog/login.html')
 def crear(request):
     return render(request, 'blog/crear.html')
+def logout(request):
+    return render(request, 'blog/logout.html')
+def eliminar(request):
+    return render(request, 'blog/eliminar.html')
